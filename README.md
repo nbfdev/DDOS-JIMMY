@@ -17,3 +17,7 @@ pkg install git -y
 
 # ติดตั้ง requests (ไลบรารีเดียวที่จำเป็นสำหรับโค้ดของคุณ)
 pip install requests
+# ลง 
+git clone https://github.com/nbfdev/DDOS-JIMMY.git
+cd DDOS-JIMMY 
+python ddos.py
