@@ -1,23 +1,33 @@
 # DDOS-JIMMY
-🛑 เครื่องมือนี้จัดทำขึ้นเพื่อ **การศึกษาเท่านั้น**   
-🧠 ผู้ใช้ต้องรับผิดชอบการใช้งานเอง 100%
-🚫 ผู้พัฒนา **จะไม่รับผิดชอบ** ต่อความเสียหายใด ๆ ที่เกิดจากการใช้งาน
-📚 ห้ามนำไปใช้ในทางที่ผิดกฎหมาย หรือโดยไม่ได้รับอนุญาต
-✅ ใช้เฉพาะกับระบบของตัวเอง หรือระบบที่ได้รับอนุญาตเท่านั้น  
 
-[ติดตั้ง]
-# อัปเดตระบบก่อน
+🛑 This tool is for **educational purposes only**  
+🧠 You are **100% responsible** for your own actions  
+🚫 The developer **is not liable** for any damages caused by using this tool  
+📚 Do not use this tool for illegal activities or without permission  
+✅ Use it only on your own systems or systems you have explicit permission to test  
+
+---
+
+## 📦 Installation
+
+```bash
+# Update system packages
 pkg update -y && pkg upgrade -y
 
-# ติดตั้ง Python (มาพร้อม pip)
+# Install Python (includes pip)
 pkg install python -y
 
-# ติดตั้ง git (เผื่อใช้โหลด repo ต่าง ๆ)
+# Install git
 pkg install git -y
 
-# ติดตั้ง requests (ไลบรารีเดียวที่จำเป็นสำหรับโค้ดของคุณ)
+# Install requests (required library)
 pip install requests
-# ลง 
+
+# Clone the repository
 git clone https://github.com/nbfdev/DDOS-JIMMY.git
-cd DDOS-JIMMY 
+
+# Navigate into the directory
+cd DDOS-JIMMY
+
+# Run the script
 python ddos.py
